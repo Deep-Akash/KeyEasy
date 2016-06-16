@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  KeyEasy
+//  KeyEasy App
 //
 //  Created by Akashdeep on 16/06/16.
 //  Copyright © 2016 Mobikwik. All rights reserved.
