@@ -12,20 +12,58 @@
 		10C9194E1D128E30004E1A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C9194C1D128E30004E1A96 /* Main.storyboard */; };
 		10C919501D128E30004E1A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C9194F1D128E30004E1A96 /* Assets.xcassets */; };
 		10C919531D128E30004E1A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C919511D128E30004E1A96 /* LaunchScreen.storyboard */; };
+		10C919711D1291A7004E1A96 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C919701D1291A7004E1A96 /* KeyboardViewController.swift */; };
+		10C919751D1291A7004E1A96 /* KeyEasy.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 10C9196E1D1291A7004E1A96 /* KeyEasy.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		10C919731D1291A7004E1A96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C9193D1D128E30004E1A96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C9196D1D1291A7004E1A96;
+			remoteInfo = KeyEasy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10C919691D12912D004E1A96 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				10C919751D1291A7004E1A96 /* KeyEasy.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		10C919451D128E30004E1A96 /* KeyEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C919451D128E30004E1A96 /* KeyEasy App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KeyEasy App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C919481D128E30004E1A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10C9194A1D128E30004E1A96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10C9194D1D128E30004E1A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10C9194F1D128E30004E1A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10C919521D128E30004E1A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10C919541D128E30004E1A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C919601D12912D004E1A96 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		10C919621D12912D004E1A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C9196E1D1291A7004E1A96 /* KeyEasy.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KeyEasy.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C919701D1291A7004E1A96 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		10C919721D1291A7004E1A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		10C919421D128E30004E1A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C9196B1D1291A7004E1A96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				10C919471D128E30004E1A96 /* KeyEasy */,
+				10C9195F1D12912D004E1A96 /* KeyEasy */,
+				10C9196F1D1291A7004E1A96 /* KeyEasy */,
 				10C919461D128E30004E1A96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,7 +86,8 @@
 		10C919461D128E30004E1A96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10C919451D128E30004E1A96 /* KeyEasy.app */,
+				10C919451D128E30004E1A96 /* KeyEasy App.app */,
+				10C9196E1D1291A7004E1A96 /* KeyEasy.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,16 +105,53 @@
 			path = KeyEasy;
 			sourceTree = "<group>";
 		};
+		10C9195F1D12912D004E1A96 /* KeyEasy */ = {
+			isa = PBXGroup;
+			children = (
+				10C919601D12912D004E1A96 /* KeyboardViewController.swift */,
+				10C919621D12912D004E1A96 /* Info.plist */,
+			);
+			path = KeyEasy;
+			sourceTree = "<group>";
+		};
+		10C9196F1D1291A7004E1A96 /* KeyEasy */ = {
+			isa = PBXGroup;
+			children = (
+				10C919701D1291A7004E1A96 /* KeyboardViewController.swift */,
+				10C919721D1291A7004E1A96 /* Info.plist */,
+			);
+			path = KeyEasy;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		10C919441D128E30004E1A96 /* KeyEasy */ = {
+		10C919441D128E30004E1A96 /* KeyEasy App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10C919571D128E30004E1A96 /* Build configuration list for PBXNativeTarget "KeyEasy" */;
+			buildConfigurationList = 10C919571D128E30004E1A96 /* Build configuration list for PBXNativeTarget "KeyEasy App" */;
 			buildPhases = (
 				10C919411D128E30004E1A96 /* Sources */,
 				10C919421D128E30004E1A96 /* Frameworks */,
 				10C919431D128E30004E1A96 /* Resources */,
+				10C919691D12912D004E1A96 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10C919741D1291A7004E1A96 /* PBXTargetDependency */,
+			);
+			name = "KeyEasy App";
+			productName = KeyEasy;
+			productReference = 10C919451D128E30004E1A96 /* KeyEasy App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10C9196D1D1291A7004E1A96 /* KeyEasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C919761D1291A8004E1A96 /* Build configuration list for PBXNativeTarget "KeyEasy" */;
+			buildPhases = (
+				10C9196A1D1291A7004E1A96 /* Sources */,
+				10C9196B1D1291A7004E1A96 /* Frameworks */,
+				10C9196C1D1291A7004E1A96 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,8 +159,8 @@
 			);
 			name = KeyEasy;
 			productName = KeyEasy;
-			productReference = 10C919451D128E30004E1A96 /* KeyEasy.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 10C9196E1D1291A7004E1A96 /* KeyEasy.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +173,9 @@
 				ORGANIZATIONNAME = Mobikwik;
 				TargetAttributes = {
 					10C919441D128E30004E1A96 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					10C9196D1D1291A7004E1A96 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -112,7 +193,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				10C919441D128E30004E1A96 /* KeyEasy */,
+				10C919441D128E30004E1A96 /* KeyEasy App */,
+				10C9196D1D1291A7004E1A96 /* KeyEasy */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +210,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		10C9196C1D1291A7004E1A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +229,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		10C9196A1D1291A7004E1A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C919711D1291A7004E1A96 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10C919741D1291A7004E1A96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C9196D1D1291A7004E1A96 /* KeyEasy */;
+			targetProxy = 10C919731D1291A7004E1A96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		10C9194C1D128E30004E1A96 /* Main.storyboard */ = {
@@ -251,7 +356,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = KeyEasy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobikwik.KeyEasy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,10 +369,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = KeyEasy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobikwik.KeyEasy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10C919771D1291A8004E1A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyEasy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobikwik.KeyEasy.KeyEasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		10C919781D1291A8004E1A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyEasy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobikwik.KeyEasy.KeyEasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -281,11 +414,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		10C919571D128E30004E1A96 /* Build configuration list for PBXNativeTarget "KeyEasy" */ = {
+		10C919571D128E30004E1A96 /* Build configuration list for PBXNativeTarget "KeyEasy App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10C919581D128E30004E1A96 /* Debug */,
 				10C919591D128E30004E1A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10C919761D1291A8004E1A96 /* Build configuration list for PBXNativeTarget "KeyEasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C919771D1291A8004E1A96 /* Debug */,
+				10C919781D1291A8004E1A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
